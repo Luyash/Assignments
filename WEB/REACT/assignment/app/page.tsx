@@ -4,31 +4,31 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-wrap gap-6 justify-center items-center bg-gray-100 p-8">
       <StudentCard
-        name="John Doe"
+        name="Suyog Pant"
         age={20}
         course="BSc CSIT"
         grade="A"
       />
 
       <StudentCard
-        name="Jane Smith"
+        name="Aryan Thapa"
         age={19}
         course="BCA"
         grade="A+"
       />
 
       <StudentCard
-        name="David Johnson"
+        name="Jeet Thapa"
         age={21}
         course="BIT"
         grade="B+"
       />
 
       <StudentCard
-        name="Emily Brown"
-        age={22}
+        name="Luyash Thapa"
+        age={20}
         course="Computer Engineering"
-        grade="A-"
+        grade="A+"
       />
     </main>
   );
