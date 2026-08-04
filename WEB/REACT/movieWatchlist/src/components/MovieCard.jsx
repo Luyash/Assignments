@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
 import Button from "react-bootstrap/Button";
 
-// Displays a single movie. Reused repeatedly inside MovieList.
+
 function MovieCard({ movie, onToggleWatched }) {
   return (
     <Card
@@ -12,7 +12,7 @@ function MovieCard({ movie, onToggleWatched }) {
     >
       <Card.Body>
         <div className="d-flex justify-content-between align-items-start">
-          <Card.Title className={movie.watched ? "text-muted text-decoration-line-through" : ""}>
+          <Card.Title>
             {movie.title}
           </Card.Title>
           <Badge bg={movie.watched ? "success" : "warning"} text={movie.watched ? undefined : "dark"}>
