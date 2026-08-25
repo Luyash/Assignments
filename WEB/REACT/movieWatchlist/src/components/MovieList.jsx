@@ -2,7 +2,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import MovieCard from "./MovieCard";
 
-// Receives the list of movies and renders them, using MovieCard for each.
+
 function MovieList({ movies, onToggleWatched }) {
   if (movies.length === 0) {
     return <p className="text-center text-muted mt-4">No movies yet — add one above!</p>;
