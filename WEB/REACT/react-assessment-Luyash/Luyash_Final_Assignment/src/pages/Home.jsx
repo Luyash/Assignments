@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
-import Loading from '../components/Loading';
-import ProductList from '../components/ProductList';
+import Loading from '../component/Loading';
+import ProductList from '../component/ProductList';
 
 const API_URL = 'https://fakestoreapi.com/products';
 
