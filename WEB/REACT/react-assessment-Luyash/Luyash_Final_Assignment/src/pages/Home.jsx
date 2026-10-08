@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Loading from '../component/Loading';
 import ProductList from '../component/ProductList';
 
-const API_URL = 'https://fakestoreapi.com/products';
+const API_URL = 'http://localhost:3000/products';
 
 function Home({ products, setProducts, addToCart }) {
   const [loading, setLoading] = useState(true);
